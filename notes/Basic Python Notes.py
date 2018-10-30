@@ -1,3 +1,5 @@
+'''
+
 print("Hello World!")
 print()
 # This is a comment. I can write whatever I want
@@ -33,3 +35,51 @@ print("I have a car called %s. It's pretty nice." % car_name)
 # Input
 name = input("What is your name? ")
 print("Hello %s" % name)
+
+'''
+# function
+def printhelloworld():
+    print("helloworld")
+'''
+thhis is a multi-line comment
+I can type anywhere
+if here:
+'''
+
+printhelloworld()
+'''
+this is a multi-line comment 
+I csn type anywhere here.
+'''
+# f(x) = 2x + 3
+def f (x):
+    print (2*x +3 )
+
+
+f(1)
+f(5)
+f(5000)
+
+        # Loop
+for i in (1,2,3):
+    printhelloworld()
+    print()
+for i in range(1000000) :
+    printhelloworld()
+
+
+for i in range (5):
+    printhelloworld()
+print()
+for i in range (5): # rang starts at 0 and goes to 4
+    f(i)
+
+for i in range (5):
+    print(i**2)
+
+
+a = 0
+# while loops
+while a < 10:
+    print(a)
+    a += 1 # this is the same thing as a = a+ 1
