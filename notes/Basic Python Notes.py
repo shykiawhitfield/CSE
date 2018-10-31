@@ -83,3 +83,36 @@ a = 0
 while a < 10:
     print(a)
     a += 1 # this is the same thing as a = a+ 1
+
+
+'''
+Hints with loops:
+for loops - use when you don't know how many iterations
+whike loops - Use when you Don't know how many interations
+'''
+
+# Random numbers
+import random  # this shold always be on line 1
+print (random.randint (0' 100)
+
+# Control Statement
+def grade_calc (percentage) :
+    if (percentage) >= 90:
+        return "A"
+    elif percentage >= 80:
+        return "b"
+    elif percentage >= 70:
+        return "C"
+    elif percentage >= 60:
+        return "D"
+    elif:
+        return "F"
+
+
+
+    print (grade_calc(82))
+
+
+
+    print (grade_calc(82))
+
